@@ -66,3 +66,18 @@ select b.* from singer s
 join band b ON b.id = s.band_id 
 where b."name" = 'Rammstein';
 
+select b.* from singer s
+join band b ON b.id = s.band_id 
+where b."name" = 'Iron_Maiden';
+
+select b.* from singer s
+join band b ON b.id = s.band_id 
+where b."name" = 'Black_Sabbath';
+
+select b.* from singer s
+join band b ON b.id = s.band_id 
+where b."name" = 'Dio';
+
+select b.* from singer s
+join band b ON b.id = s.band_id 
+where b."name" = 'Judas_Priest';
