@@ -64,17 +64,17 @@ alter table drummer add constraint fk_id_band foreign key (band_id) references b
 
 update singer set 
 
--- Buscar el cantante de Rammstein
+-- Buscar relacion del cantante de Rammstein
 select b.* from singer s
 join band b ON b.id = s.band_id 
 where b."name" = 'Rammstein';
 
--- Buscar el baterista de Judas Priest
+-- Buscar relacion del baterista de Judas Priest
 select * from drummer d
 join band b ON b.id = d.band_id 
 where b."name" = 'Judas_Priest';
 
--- Buscar el guitarrista de Judas Priest
+-- Buscar relacion del guitarrista de Judas Priest
 select * from guitarist g
 join band b ON b.id = d.band_id 
 where b."name" = 'Judas_Priest';
