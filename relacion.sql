@@ -62,7 +62,7 @@ alter table singer add constraint fk_id_band foreign key (band_id) references ba
 alter table guitarist  add constraint fk_id_band foreign key (band_id) references band(id);
 alter table drummer add constraint fk_id_band foreign key (band_id) references band(id);
 
-update singer set 
+-- Update se hizo manualmente 
 
 -- Buscar relacion del cantante de Rammstein
 select b.* from singer s
